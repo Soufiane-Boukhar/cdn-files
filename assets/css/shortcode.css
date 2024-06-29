@@ -2652,6 +2652,7 @@
 /*  10 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper {
+  background-image: url(../../images/titlebar-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2660,10 +2661,10 @@
   z-index: 1;
 }
 
+
 .pack{
   background-color: #fff;
 }
-
 .pbmit-title-bar-wrapper:before {
   content: "";
   display: block;
