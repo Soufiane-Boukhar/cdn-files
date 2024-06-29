@@ -2661,7 +2661,47 @@
   z-index: 1;
 }
 
+#service-section{
+  background-image: url(../../images/Service-adb.jpeg) !important;
+}
 
+#sectionsContacts{
+  background-image: url(../../images/contact.jpeg) !important;
+}
+
+.offersProgramme{
+  background-image: url(../../images/offers/offers.jpeg) !important;
+}
+
+.offersInvestisseurs{
+  background-image: url(../../images/offers/investisseur.jpeg) !important;
+
+}
+
+.offersETI{
+  background-image: url(../../images/offers/eti.jpeg) !important;
+
+}
+
+.offersETILocation{
+  background-image: url(../../images/offers/location.jpeg) !important;
+
+}
+
+.offersPME{
+  background-image: url(../../images/offers/pme.jpeg) !important;
+
+}
+
+.offersPMELOCATION{
+  background-image: url(../../images/offers/PMELOCATION.jpeg) !important;
+
+}
+
+.offersMarketing{
+  background-image: url(../../images/offers/marketing.jpeg) !important;
+
+}
 .pack{
   background-color: #fff;
 }
