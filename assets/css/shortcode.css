@@ -2652,7 +2652,6 @@
 /*  10 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper {
-  background-image: url(../../images/titlebar-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2661,88 +2660,10 @@
   z-index: 1;
 }
 
-#service-section{
-  background-image: url(../../images/Service-adb.jpeg) !important;
-}
-
-#sectionsContacts{
-  background-image: url(../../images/contact.jpeg) !important;
-}
-
-.offersProgramme{
-  background-image: url(../../images/offers/offers.jpeg) !important;
-}
-
-.offersInvestisseurs{
-  background-image: url(../../images/offers/investisseur.jpeg) !important;
-
-}
-
-.offersETI{
-  background-image: url(../../images/offers/eti.jpeg) !important;
-
-}
-
-.offersETILocation{
-  background-image: url(../../images/offers/location.jpeg) !important;
-
-}
-
-.offersPME{
-  background-image: url(../../images/offers/pme.jpeg) !important;
-
-}
-
-.offersPMELOCATION{
-  background-image: url(../../images/offers/PMELOCATION.jpeg) !important;
-
-}
-
-.offersMarketing{
-  background-image: url(../../images/offers/marketing.jpeg) !important;
-
-}
 .pack{
   background-color: #fff;
 }
-.pbmit-title-bar-wrapper:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: none !important;
-}
-.pbmit-title-bar-wrapper:after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.8;
-  width: 100%;
-  height: 100%;
-  background: -moz-linear-gradient(
-    right,
-    rgba(33, 44, 64, 0.77) 0%,
-    rgba(33, 44, 64, 0.77) 63%,
-    rgba(33, 44, 64, 0) 100%
-  );
-  background: -webkit-linear-gradient(
-    right,
-    rgba(33, 44, 64, 0.77) 0%,
-    rgba(33, 44, 64, 0.77) 63%,
-    rgba(33, 44, 64, 0) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(33, 44, 64, 0.77) 0%,
-    rgba(33, 44, 64, 0.77) 63%,
-    rgba(33, 44, 64, 0) 100%
-  );
-}
+
 .pbmit-title-bar-wrapper,
 .pbmit-title-bar-content {
   min-height: 595px;
