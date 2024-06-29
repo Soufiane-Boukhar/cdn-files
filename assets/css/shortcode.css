@@ -2664,6 +2664,44 @@
   background-color: #fff;
 }
 
+.pbmit-title-bar-wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: none !important;
+}
+.pbmit-title-bar-wrapper:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(
+    right,
+    rgba(33, 44, 64, 0.77) 0%,
+    rgba(33, 44, 64, 0.77) 63%,
+    rgba(33, 44, 64, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    right,
+    rgba(33, 44, 64, 0.77) 0%,
+    rgba(33, 44, 64, 0.77) 63%,
+    rgba(33, 44, 64, 0) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(33, 44, 64, 0.77) 0%,
+    rgba(33, 44, 64, 0.77) 63%,
+    rgba(33, 44, 64, 0) 100%
+  );
+}
 .pbmit-title-bar-wrapper,
 .pbmit-title-bar-content {
   min-height: 595px;
